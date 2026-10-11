@@ -29,7 +29,7 @@ header{
 }
 
 .abaVertical a{
-    color: white;
+    color: rgb(241, 216, 165);
     text-decoration: none;
 }
 
@@ -64,5 +64,69 @@ main{
 }
 
 .anuncioHome{
-    
+    display: flex;
+    width: 100%;
+    height: 50vh;
 }
+
+.divAnuncioHome{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(43, 26, 19);
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.divAnuncioHome h1{
+    color: rgb(241, 216, 165);
+    font-size: 50px;
+    margin: 0;
+    display: inline-block; 
+    transform: scaleY(1.1); 
+    transform-origin: left bottom;
+    line-height: 1.1; 
+}
+
+.numeroColorido{
+    color: rgb(246, 153, 56);
+}
+
+.divAnuncioHome p{
+    color: rgb(241, 216, 165);
+    font-size: 20px;
+}
+
+.divImagemHome{
+    height: 100%;
+    width: 50%;
+    background-image: url(imagens/imagemHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linkCatalogo{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.divCatalogo{
+    display: flex;
+    width: 30%;
+    height: 6vh;
+    background-color: rgb(246, 153, 56);
+    border-radius: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCatalogo p{
+    color: rgb(43, 26, 19);
+    font-size: 16px;
+    font-weight: 800;
+}
+
