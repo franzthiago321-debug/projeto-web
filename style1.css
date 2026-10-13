@@ -130,3 +130,51 @@ main{
     font-weight: 800;
 }
 
+.divInferiorHome{
+    display: flex;
+    min-height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+.divInferiorMetade{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 50%;
+    height: 100%;
+}
+
+.divCategorias{
+    display: flex;
+    flex-direction: column;
+    padding-left: 9%;
+    width: 91%;
+    height: 40vh;
+}
+
+.divInferiorMetade h2{
+    color: rgb(241, 216, 165);
+    margin: 0;
+}
+
+.categorias{
+    display: flex;
+    margin-top: 2%;
+    padding-right: 2%;
+    height: 25vh;
+}
+
+.linkCategoria{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 25%;
+}
+
+.divCategoriaRock{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
